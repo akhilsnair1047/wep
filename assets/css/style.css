@@ -779,7 +779,7 @@ p {
     height: 680px; }
     @media only screen and (min-width: 1400px) {
       .slider_image_1 {
-        height: 600px; } }
+        height: 700px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .slider_image_1 {
         height: 1100px; } }
