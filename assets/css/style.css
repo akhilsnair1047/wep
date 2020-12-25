@@ -804,7 +804,7 @@ p {
         height: 840px; }
         @media only screen and (min-width: 1400px) {
           .slider_image_2 {
-            height: 500px; } }
+            height: 840px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .slider_image_2 {
             height: 530px; } }
