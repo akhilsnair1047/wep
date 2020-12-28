@@ -181,6 +181,43 @@ p {
     .main-btn.main-btn-2:hover {
       background-color: #f86048; }
 
+
+      .main-btn_1 {
+        margin-top: 25px;
+        display: inline-block;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 0;
+        padding: 0 30px;
+        font-size: 16px;
+        line-height: 48px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        z-index: 5;
+        -webkit-transition: all 0.4s ease-out 0s;
+        -moz-transition: all 0.4s ease-out 0s;
+        -ms-transition: all 0.4s ease-out 0s;
+        -o-transition: all 0.4s ease-out 0s;
+        transition: all 0.4s ease-out 0s;
+        background-color: #af28fe; }
+        .main-btn_1:hover {
+          background-color: #f86048;
+          color: #fff;
+          -webkit-box-shadow: 0px 0px 25px 0px rgba(34, 34, 34, 0.15);
+          -moz-box-shadow: 0px 0px 25px 0px rgba(34, 34, 34, 0.15);
+          box-shadow: 0px 0px 25px 0px rgba(34, 34, 34, 0.15); }
+        .main-btn_1 {
+          background-color: #e7a642; }
+          .main-btn_1:hover {
+            background-color: #af28fe; }   
+
 /*===== All Slick Slide Outline Style =====*/
 .slick-slide {
   outline: 0; }
