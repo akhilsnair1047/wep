@@ -150,7 +150,11 @@ p {
   font-weight: 400;
   line-height: 24px;
   color: #616161;
-  margin: 0px; }
+  margin: 0px;
+  font-family: 'Merienda', cursive;
+ }
+
+  @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');  
 
 .bg_cover {
   background-position: center center;
@@ -839,19 +843,19 @@ p {
   z-index: 9; }
 
   .slider_image_1 {
-    height: 630px; }
+    height: 730px; }
     @media only screen and (min-width: 1400px) {
       .slider_image_1 {
-        height: 600px; } }
+        height: 650px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .slider_image_1 {
         height: 1100px; } }
     @media (max-width: 767px) {
       .slider_image_1 {
-        height: 1230px; } }
+        height: 1460px; } }
     @media (max-width: 287px) {
       .slider_image_1 {
-        height: 1730px; } }
+        height: 1930px; } }
     .slider_image_1::before {
       position: absolute;
       content: '';
