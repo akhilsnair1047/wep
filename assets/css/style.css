@@ -104,10 +104,13 @@ h4,
 h5,
 h6 {
   /* font-family: "Montserrat"; */
-  font-family: "Chelsea Market", Sans-serif;
+  font-family:  cursive;
+  /* font-family: "Chelsea Market", cursive; */
   font-weight: 700;
   color: #2b2a35;
   margin: 0px; }
+
+ @ 
 
 h1 {
   font-size: 48px; }
@@ -232,6 +235,18 @@ p {
       font-size: 20px; } }
 .section_title.section_title_2 .title {
   color: #fff; }
+
+  .spacing{
+    font-size: 55px;
+    margin-top: 25px;
+    color: #fff;
+
+  }
+
+  @media (max-width: 767px) {
+    .spacing {
+      font-size: 30px; } }
+
 
 /*===== All Pagination Style =====*/
 .pagination .page-item {
@@ -814,10 +829,10 @@ p {
   z-index: 9; }
 
   .slider_image_1 {
-    height: 680px; }
+    height: 630px; }
     @media only screen and (min-width: 1400px) {
       .slider_image_1 {
-        height: 700px; } }
+        height: 600px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .slider_image_1 {
         height: 1100px; } }
@@ -839,10 +854,10 @@ p {
 
 
       .slider_image_2 {
-        height: 840px; }
+        height: 750px; }
         @media only screen and (min-width: 1400px) {
           .slider_image_2 {
-            height: 900px; } }
+            height: 790px; } }
 
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .slider_image_2 {
@@ -852,7 +867,7 @@ p {
             height: 400px; } }
         @media (max-width: 407px) {
           .slider_image_2 {
-            height: 300px; } }
+            height: 250px; } }
         .slider_image_2::before {
           position: absolute;
           content: '';
@@ -3512,7 +3527,7 @@ p {
       11.EVENT css 
 ===========================*/
 .event_area {
-  background-color: #f86048; }
+  background-color: #b45; }
 
 .single_event .event_image {
   position: relative;
