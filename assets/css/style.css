@@ -110,7 +110,17 @@ h6 {
   color: #2b2a35;
   margin: 0px; }
 
- @ 
+ @media (max-width: 667px){
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* font-family: "Montserrat"; */
+    font-family: Arial, Helvetica, cursive;
+ }
+}
 
 h1 {
   font-size: 48px; }
