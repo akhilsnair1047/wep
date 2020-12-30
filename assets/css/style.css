@@ -104,13 +104,13 @@ h4,
 h5,
 h6 {
   /* font-family: "Montserrat"; */
-  font-family:  cursive;
+  font-family: 'Merienda', cursive;
   /* font-family: "Chelsea Market", cursive; */
   font-weight: 700;
   color: #2b2a35;
   margin: 0px; }
 
- @media (max-width: 667px){
+ /* @media (max-width: 667px){
   h1,
   h2,
   h3,
@@ -118,9 +118,9 @@ h6 {
   h5,
   h6 {
     /* font-family: "Montserrat"; */
-    font-family: Arial, Helvetica, cursive;
+    font-family: 'Merienda', cursive;
  }
-}
+} */
 
 h1 {
   font-size: 48px; }
