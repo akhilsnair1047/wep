@@ -103,7 +103,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Chelsea Market", cursive;
+  /* font-family: "Chelsea Market", cursive; */
+  font-family: "Chelsea Market";
   font-weight: 700;
   color: #2b2a35;
   margin: 0px; }
