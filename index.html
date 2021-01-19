@@ -100,6 +100,34 @@
   font-size: 15px;
 }
 
+#popupmain{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(22, 1, 1, 0.521);
+            z-index :1000;
+        }
+
+        #popup{
+            width: 300px;
+            height: 350px;
+            /* background-image: url(assets/images/AMP\ LOGO\ full.png) ; */
+            background-color: #5c5c5c;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 1px 2px 5px 3px white;
+            text-align: center;
+        }
+        #hello{
+              transform: translateY(50px);
+              color: white;
+              margin-bottom: 100px;
+              font-size: 20px;
+        }
+
     </style>
 
 
@@ -121,6 +149,18 @@
     </div>
 
     <!--====== PRELOADER PART ENDS ======-->
+
+    <div id="popupmain" style="display: none;">
+        <div id = "popup">
+            <img src="assets/images/AMP LOGO 1.png" alt="" width="100px" style="margin-top:10px ;">
+            <h1 id ="hello">
+                 Want to join our team ?
+            </h1>
+          <a href="contact.html">  <button class="join main-btn">Join Us</button>  </a>
+            <button class="join main-btn">No Thanks</button>
+ 
+        </div>
+     </div>
     
     <!--====== HEADER PART START ======-->
 
@@ -213,7 +253,7 @@
 
     <!--====== SLIDER PART START ======-->
 
-    <section class="slider_area slider-active" style="margin-top:137px ;">
+    <section class="slider_area slider-active">
         <div class="single_slider">
             <div class="slider_image bg_cover " data-animation="kenburns" style="background-image: url(assets/images/a11.jpg);  " ></div> <!-- slider image -->
             <div class="slider_content_wrapper d-flex align-items-center">
@@ -1556,7 +1596,18 @@
  
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            setTimeout(function(){
+                $('#popupmain').css('display','block'); },3000);
+            });
 
+        $('.join').click(function(){
+            $('#popupmain').css('display','none');
+        });    
+ 
+    </script>
 
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
